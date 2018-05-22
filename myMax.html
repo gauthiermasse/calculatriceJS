@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Hello World!</title>
+
+</head>
+
+
+<body>
+
+
+    <script>
+      
+      function myMax(array)
+        { 
+          var max = 0
+          for(var size=1;size<array.length - 1;size++)
+            {
+              if (array[size]>array[size - 1])
+                {
+                  max = size
+                }
+              
+            }
+
+          alert(array[max])
+        }
+        
+        myMax([12, 13, 1])
+
+    </script>
+</body>
+
+</html>
+
+
+
+

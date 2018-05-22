@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Hello World!</title>
+
+</head>
+
+
+<body>
+
+
+    <script>
+      var vowels = ["a", "e", "i", "o", "u"];
+        var nb = 0;
+        function vowel_count(string)
+            { 
+                var length = string.length;
+                var text = string.split(""); console.log("test");
+                for(var iter=0; iter<length; iter++)
+                    { 
+                        for(var iterr=0; iterr<5; iterr++)
+                        {
+                            if(text[iter] == vowels[iterr])
+                                {
+                                    nb++;
+                                }
+                        }
+                    }
+
+                alert(nb);
+            }
+
+      vowel_count("yololo");
+    </script>
+</body>
+
+</html>
+
