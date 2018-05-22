@@ -14,5 +14,5 @@ Tu trouveras les 3 petites fonctions de préchauffe:
 	2=> on m'a expliqué après que c'était possible directement avec la fonction .reverse, la flemme était meilleure conseillère
 
 
-La calculette: 
+La calculette: https://cdn.rawgit.com/gauthiermasse/calculatriceJS/d9c3f169/calculette.html
 Je crée un array qui stocke les valeurs tapées par le user, il suffit ensuite de les joindre et d'utiliser la fonction eval qui interprète un string composé de chiffres et d'opérateurs et est capable de le calculer. DOnc pas besoin des fonctions de calculs, que j'ai quand même laissé (ce coup ci la flemme a bien marché)!
