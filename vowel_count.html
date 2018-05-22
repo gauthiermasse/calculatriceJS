@@ -13,17 +13,16 @@
 
 
     <script>
-      var vowels = ["a", "e", "i", "o", "u"];
+        var vowels = ["a", "e", "i", "o", "u"];
         var nb = 0;
         function vowel_count(string)
             { 
-                var length = string.length;
-                var text = string.split(""); console.log("test");
-                for(var iter=0; iter<length; iter++)
+                var text = string.split(""); 
+                for(var i=0; i<string.length; i++)
                     { 
-                        for(var iterr=0; iterr<5; iterr++)
+                        for(var v=0; v<5; v++)
                         {
-                            if(text[iter] == vowels[iterr])
+                            if(text[i] == vowels[v])
                                 {
                                     nb++;
                                 }
@@ -33,7 +32,7 @@
                 alert(nb);
             }
 
-      vowel_count("yololo");
+      vowel_count("yoplaboum");
     </script>
 </body>
 
