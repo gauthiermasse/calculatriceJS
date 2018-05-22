@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css" />
+    <title>Hello World!</title>
+
+</head>
+
+
+<body>
+	<div>
+
+		<div style="display: flex">
+			<button onclick="un()"> <div >1 </div> </button>
+			<button onclick="deux()"> <div >2 </div> </button>
+			<button onclick="trois()"> <div >3 </div> </button>
+			<button onclick="plus()"> <div >+ </div> </button>
+		</div>
+
+		<div style="display: flex">
+			<button onclick="quatre()"> <div >4 </div> </button>
+			<button onclick="cinq()"> <div >5 </div> </button>
+			<button onclick="six()"> <div >6 </div> </button>
+			<button onclick="moins()"> <div >- </div> </button>
+		</div>
+
+		<div style="display: flex">
+			<button onclick="sept()"> <div >7 </div> </button>
+			<button onclick="huit()"> <div >8 </div> </button>
+			<button onclick="neuf()"> <div >9 </div> </button>
+			<button onclick="fois()"> <div >* </div> </button>
+		</div>
+
+		<div style="display: flex">
+			<button onclick="test()"> <div >Clear</div> </button>
+			<button onclick="zero()"> <div >0 </div> </button>
+			<button onclick="egal()"> <div >= </div> </button>
+			<button onclick="divise()"> <div >/ </div> </button>
+		</div>
+
+		<div style="display: flex">
+
+		</div>
+
+
+	</div>
+    
+    <script>
+    	var array = [];
+
+
+    	function test()
+	    	{
+	    		console.log("clear");
+	    		array = [];	
+	    	}
+
+    	function un()
+	    	{
+	    		array.push("1");
+	    		console.log("1");
+	    	}
+	    function deux()
+	    	{
+	    		array.push("2");
+	    		console.log("2");
+	    	}
+	    function trois()
+	    	{
+	    		array.push("3");
+	    		console.log("3");
+	    	}
+	    function quatre()
+	    	{
+	    		array.push("4");
+	    		console.log("4");
+	    	}
+	    function cinq()
+	    	{
+	    		array.push("5");
+	    		console.log("5");
+	    	}
+	    function six()
+	    	{
+	    		array.push("6");
+	    		console.log("6");
+	    	}
+	    function sept()
+	    	{
+	    		array.push("7");
+	    		console.log("7");
+	    	}
+	    function huit()
+	    	{
+	    		array.push("8");
+	    		console.log("8");
+	    	}
+	     function neuf()
+	    	{
+	    		array.push("9");
+	    		console.log("9");
+	    	}
+	     function zero()
+	    	{
+	    		array.push("0");
+	    		console.log("0");
+	    	}
+
+	    
+	     function plus()
+	    	{
+	    		array.push("+");
+	    	}
+	     function moins()
+	    	{
+	    		array.push("-");
+	    	}
+	     function fois()
+	    	{
+	    		array.push("*");
+	    		console.log("*")
+	    	}
+	     function divise()
+	    	{
+	    		array.push("/");
+	    	}
+	    function egal()
+	    	{
+	    		var sym = "=";
+	    		alert(array.join('') +" = " + eval(array.join('')));
+	    	}
+
+
+    	function add(a,b) 
+	    	{
+	    		var result = a + b;
+	    		alert(result)
+	    	}
+	    function multiply(a,b)
+	    	{
+	    		var result = a * b;
+	    		alert(result)
+	    	}
+	   function divide(a,b)
+	    	{
+	    		var result = a / b;
+	    		alert(result)
+	    	}
+	    function substract(a,b)
+	    	{
+	    		var result = a - b;
+	    		alert(result)
+	    	}
+
+	   
+
+
+    </script>
+</body>
+
+</html>

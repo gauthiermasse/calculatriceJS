@@ -1,0 +1,13 @@
+*{
+	color:red;
+
+}
+
+div {
+	justify-content: center;
+}
+
+div div div{
+	padding:15px;
+	text-align: center;
+}

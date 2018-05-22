@@ -12,3 +12,7 @@ Tu trouveras les 3 petites fonctions de préchauffe:
 =>2 méthodes: 
 	1=> avec une boucle: après avoir décomposé le texte en lettres distinctes dans un tableau, on balaye toutes ces lettres pour les replacer dans l'ordre inverse dans la variable newtext qu'on affiche à la fin
 	2=> on m'a expliqué après que c'était possible directement avec la fonction .reverse, la flemme était meilleure conseillère
+
+
+La calculette: 
+Je crée un array qui stocke les valeurs tapées par le user, il suffit ensuite de les joindre et d'utiliser la fonction eval qui interprète un string composé de chiffres et d'opérateurs et est capable de le calculer. DOnc pas besoin des fonctions de calculs, que j'ai quand même laissé (ce coup ci la flemme a bien marché)!
